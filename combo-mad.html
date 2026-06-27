@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+
+<html style="background-color: black;">
+
+<head>
+   <title>Combo Mad</title>
+   <script src="teclado.js"></script>
+   <script src="heroi.js"></script>
+   <script src="animacao.js"></script>
+   <script src="espada.js"></script>
+   <script src="porrete.js"></script>
+   <script src="dummy.js"></script>
+   <script src="barradecombo_complacar.js"></script>
+</head>
+
+<body>
+   <center><canvas id="canvas_teclado_3" width="800" height="800"></canvas></center>
+   <script>
+      var canvas = document.getElementById('canvas_teclado_3');
+      var context = canvas.getContext('2d');
+
+      var teclado = new Teclado(document);
+      var animacao = new Animacao(context);
+
+      /* Cria o sprite do herói. É necessário
+      colocar context para a renderização, 
+      teclado para o input, e animacao 
+      para fazer as animações funcionarem.
+      Também cria a hitbox para o personagem. */
+      var heroi = new Heroi(context, teclado, animacao, espada, porrete);
+      heroi.x = context.canvas.width / 3;
+      heroi.y = context.canvas.height;
+      animacao.novoSprite(heroi);
+
+      var barradecombo = new BarraDeCombo(context, dummy);
+      animacao.novoSprite(barradecombo);
+
+      var dummy = new Dummy(context, espada, porrete, heroi, barradecombo);
+      dummy.x = context.canvas.width * 2 / 3;
+      dummy.y = context.canvas.height;
+      animacao.novoSprite(dummy);
+
+      var espada = new Espada(context, dummy, heroi);
+      espada.mudarForma(0);
+      animacao.novoSprite(espada);
+
+      var porrete = new Porrete(context, dummy, heroi);
+      porrete.mudarForma(0);
+      animacao.novoSprite(porrete);
+
+
+
+
+      /* Lembrete: Todo sprite tem que
+         ter a função "desenhar",se não
+         o arquivo de animação não irá
+         renderizar o objeto */
+      animacao.ligar();
+   </script>
+</body>
+
+</html>

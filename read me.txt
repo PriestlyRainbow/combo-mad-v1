@@ -1,0 +1,39 @@
+PT-BR & ENG
+
+Créditos:
+
+Sprites feito por Kewyn
+Link Social:
+https://github.com/kewynlong?tab=repositories
+
+Código feito por Pedro (PriestlyRainbow)
+Link Social:
+https://www.youtube.com/@pedroking226
+@pedringemaplaays (Discord)
+
+Controles:
+Setas - Mover e direcionar o ataque
+Z - Ataque com a espada
+X - Ataque com o porrete
+Espaço - Pulo
+É possível mudar o ataque conforme qual tecla pressionada
+
+---------------------------------------------------------
+
+Credits:
+
+Sprites made by Kewyn
+Social Links:
+https://github.com/kewynlong?tab=repositories
+
+Coding done by Pedro (PriestlyRainbow)
+Social Links:
+https://www.youtube.com/@pedroking226
+@pedringemaplaays (Discord)
+
+Controls:
+Arrow Keys - Movement and changing attack direction
+Z - Attack with sword
+X - Attack with wood bat
+Space - Jump
+Arrow keys influence the attack direction

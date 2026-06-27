@@ -1,0 +1,12 @@
+Based on the "03" folder of the original project of Éderson Cássio Lacerda Ferreira.
+
+• "teste-teclado3.html" renamed to "combo_mad.html" and modified to center the canvas
+and change the html background;
+• "heroi.js" heavily modified to include gravity and fit other variables, like
+animation states and animation images;
+• "animacao.js" modified to fill a blue color instead of white and render a bg
+• Added "sprites" folder;
+• "barradecombo_complacar.js", "cenario.jpg", "dummy.js", "espada.js", and "porrete.js".
+"barradecombo.js", "barradecombo copy.js" and "barradecombo original.js" are not used
+and were only used as backups or tests;
+• Many comments were written as notes or for remembering the purpose of the code.
