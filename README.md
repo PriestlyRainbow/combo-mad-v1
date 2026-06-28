@@ -3,10 +3,24 @@ Short Hack 'n Slash game made in roughly 2 days as a school work. It has really 
 
 # How to run
 Download all the files in the repository. Open "combo-mad.html", it will open on your default browser.
+
 Arrow keys: Movement
+
 Z: Sword attack
+
 X: Wood Bat attack
+
 Space: Jump
+
 Hold up or down arrow key to use a different attack, or on the air.
+
 Aim for a highscore! (not that it is hard, exploits make it easier)
+
 Keep in mind the game will become essencially unplayable on high-end PCs, because delta time wasn't implemented yet and everything runs much faster.
+
+# Credits
+Based mainly Éderson Cássio Lacerda Ferreira's 3rd version of JavaScript game, even if it is pretty primitive and my final result is really different. Huge thanks for coming up with the base of a game structure and loop!
+
+Player and Dummy sprites were made by Kewyn, thanks for being so collaborative while developing the game with me!
+
+Code was edited by PriestlyRainbow (me), and everything added on the code was also by me.
